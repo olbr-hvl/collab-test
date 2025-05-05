@@ -7,6 +7,14 @@
 </head>
 <body>
     Test side for å sammarbeide via GitHub.
-    <button>Jeg er en endret knapp!</button>
+    <button id="1">Jeg er en endret knapp!</button>
+
+    <script>
+        document.getElementById("1").addEventListener("click", trykkKnapp)
+        function trykkKnapp() {
+            event.target.style.color = 'red'
+            event.target.innerText = 'Jeg er nå rød!'
+        }
+    </script>
 </body>
 </html>
