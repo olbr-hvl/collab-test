@@ -4,42 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sammarbeid Test</title>
-    <style>
-        body {
-            background-image: linear-gradient(in hsl longer hue, red, red);
-            height:100vh;
-            box-sizing: border-box;
-            margin: 0px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        button {
-            padding: 1em;
-            border-radius: 1em;
-            background-color: white;
-            border-color: white;
-            border-style: solid;
-        }
-
-        button:hover {
-            border-color: blue;
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     Test side for å sammarbeide via GitHub.
     <button id="1">Jeg er en endret knapp!</button>
-
-    <script>
-        document.getElementById("1").addEventListener("click", trykkKnapp)
-        function trykkKnapp() {
-            event.target.style.color = 'red'
-            event.target.innerText = 'Jeg er nå rød!'
-        }
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
