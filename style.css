@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: rotate(13deg);
+    transform: rotateX(1deg) rotateY(1deg) rotateZ(1deg);
 }
 
 button {
